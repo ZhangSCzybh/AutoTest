@@ -8,6 +8,7 @@ public class BasicAnnotation {
     @Test
     public void testCase1(){
         System.out.println("case1");
+        System.out.printf("Thread Id : %s%n",Thread.currentThread().getId());
     }
     @Test
     public void testCase2(){
@@ -17,7 +18,6 @@ public class BasicAnnotation {
     @BeforeMethod
     public void beforeMethod(){
         System.out.println("beforeMethod这是在测试方法之前运行的");
-        System.out.println("");
     }
 
     @AfterMethod

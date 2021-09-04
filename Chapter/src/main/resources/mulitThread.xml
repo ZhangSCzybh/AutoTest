@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="thread" parallel="methods" thread-count="3">
+    <!--
+        parallel：tests\classes\methods级别
+        thread-count最大并发线程数
+    -->
+    <test name="demo1">
+        <classes name="d1">
+            <class name="com.course.testng.multThread.MultiThreadOnxml"/>
+            <class name="com.course.testng.BasicAnnotation"/>
+        </classes>
+        <classes name="dd1">
+            <class name="com.course.testng.multThread.MultiThreadOnxml"/>
+            <class name="com.course.testng.BasicAnnotation"/>
+        </classes>
+    </test>
+
+    <test name="demo2">
+        <classes name="d2">
+            <class name="com.course.testng.BasicAnnotation"/>
+        </classes>
+    </test>
+
+
+</suite>
