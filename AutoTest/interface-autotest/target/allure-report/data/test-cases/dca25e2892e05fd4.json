@@ -1,0 +1,76 @@
+{
+  "uid" : "dca25e2892e05fd4",
+  "name" : "deleteFirstSource",
+  "fullName" : "com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest.deleteFirstSource",
+  "historyId" : "738ce17b48b68406ce78c3d3a26396b5",
+  "time" : {
+    "start" : 1651411166409,
+    "stop" : 1651411168054,
+    "duration" : 1645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1651411156309,
+      "stop" : 1651411158110,
+      "duration" : 1801
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteFirstSource"
+  }, {
+    "name" : "parentSuite",
+    "value" : "runAll"
+  }, {
+    "name" : "suite",
+    "value" : "source"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest"
+  }, {
+    "name" : "host",
+    "value" : "zhangshichaodeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "20288@zhangshichaodeMacBook-Pro.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dca25e2892e05fd4.json",
+  "parameterValues" : [ ]
+}
