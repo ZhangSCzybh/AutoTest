@@ -1,5 +1,6 @@
 package com.yolocast.qa.zsc.ApiTest.SourceTest;
 
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.http.Method;
 import cn.hutool.json.JSONArray;
@@ -11,9 +12,11 @@ import com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest;
 import com.yolocast.qa.zsc.BaseTest;
 import com.yolocast.qa.zsc.Constant.CommonUtil;
 import com.yolocast.qa.zsc.Constant.Config;
+import com.yolocast.qa.zsc.utils.LoginUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -49,13 +52,15 @@ public class SourceTest extends BaseTest {
 
  */
 
-/** 
- * 
- * @author zhangsc
- * @date 2022/4/25 下午6:04  
- */
+    @BeforeClass
+    public static void setUp() {
+        System.out.println("执行登录获取cookie操作");
+        Common.Cookies = LoginUtil.loginCookie(Common.yolocastUrl + Common.loginUri, Common.loginYolocastEmail, Common.loginYolocastPassword);
+    }
+
+
     //@Test(dependsOnMethods = {"addSource"})
-    @Test(dependsOnGroups = "login",groups = "source")
+    @Test(description = "获取前两个SourceId",groups = "source")
     public void getSourceList(){
 
 
@@ -201,7 +206,7 @@ public class SourceTest extends BaseTest {
         /********************************************************************接口可用性检查结束********************************************************************/
 
         try{
-            Assert.assertEquals(true, jsonresult.get("data"),String.format(Config.result_message, Config.Pro, scene, ErrorEnum.ISEMPTY.getMsg(), Common.yolocastUrl+Common.sourceListuri, body, jsonresult));
+            Assert.assertEquals(true, StrUtil.isNotBlank(jsonresult.get("data").toString()),String.format(Config.result_message, Config.Pro, scene, ErrorEnum.ISEMPTY.getMsg(), Common.yolocastUrl+Common.sourceListuri, body, jsonresult));
 
         }catch (Exception e){
             logger.error("data不为true");

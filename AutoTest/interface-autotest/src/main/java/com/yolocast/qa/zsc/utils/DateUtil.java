@@ -146,10 +146,12 @@ public class DateUtil {
      *
      * @return
      */
-    public static long getToday() {
+    public static long getTodayCurrent() {
         long current = System.currentTimeMillis();
-        return current / (1000 * 3600 * 24) * (1000 * 3600 * 24) - TimeZone.getDefault().getRawOffset();
+        //return current / (1000 * 3600 * 24) * (1000 * 3600 * 24) - TimeZone.getDefault().getRawOffset();
+        return current;
     }
+
 
     /**
      * 获取某日期的年份
