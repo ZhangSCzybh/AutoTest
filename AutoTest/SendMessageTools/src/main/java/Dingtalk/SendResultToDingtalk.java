@@ -32,6 +32,8 @@ public class SendResultToDingtalk {
     public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
     public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
     //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
+    public static String deteleAllureResult = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/allure-results";
+
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
     static String secret = "SECefdb1f1012985e2fc0fc8bb04dcbcfadfaae08cf976f6883d7d152e01f3b1a9f";
@@ -216,10 +218,43 @@ public class SendResultToDingtalk {
 
     }
 
+    public static Boolean deleteFile(File file) {
+        //判断文件不为null或文件目录存在
+        if (file == null || !file.exists()) {
+            System.out.println("文件删除失败,请检查文件是否存在以及文件路径是否正确");
+            return false;
+        }
+        //获取目录下子文件
+        File[] files = file.listFiles();
+        //遍历该目录下的文件对象
+        for (File f : files) {
+            //判断子目录是否存在子目录,如果是文件则删除
+            if (f.isDirectory()) {
+                //递归删除目录下的文件
+                deleteFile(f);
+            } else {
+                //文件删除
+                f.delete();
+                //打印文件名
+                System.out.println("文件名：" + f.getName());
+            }
+        }
+        //文件夹删除
+        file.delete();
+        System.out.println("目录名：" + file.getName());
+        return true;
+    }
+
+
 
     public static void main(String[] args){
 
+        //发送测试报告给钉钉机器人
         readSummaryJsonSendDingTalk();
+
+        //删除interface-autotest module里的allure-results；taeget里已经有了allure报告了
+        deleteFile(new File(deteleAllureResult));
+
 
     }
 
