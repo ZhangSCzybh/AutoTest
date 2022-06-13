@@ -142,6 +142,19 @@ Proxy:
     port: 19661
     password: vV4PWETsyK
 
+  # VMess 的配置
+  - name: "韩国春川AMD-04"
+    type: vmess # 代理类型
+    server: 152.69.225.233 # 服务器 IP
+    port: 31288 #  端口号
+    uuid: d5bc8032-d9b1-45c8-f22a-9d15c5f75781
+    alterId: 0  #额外的 ID
+    cipher: auto
+    #上面几行为必选参数
+    #下面几行为可选参数  根据你的配置情况来
+    tls: true      #TLS 开启
+    Host: oracle.zhangsc3.tk   # HOST
+
 
 ###############################################################配置分割线
 
@@ -155,7 +168,8 @@ Proxy Group:
       - "Trojan节点的主机测试0"
       - "Trojan节点的主机测试1"
       - "韩国春川AMD-01"
-      - "韩国春川AMD-01"
+      - "韩国春川AMD-03"
+      - "韩国春川AMD-04"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -167,7 +181,8 @@ Proxy Group:
       - "Trojan节点的主机测试0"
       - "Trojan节点的主机测试1"
       - "韩国春川AMD-01"
-      - "韩国春川AMD-01"
+      - "韩国春川AMD-03"
+      - "韩国春川AMD-04"
   # 白名单模式 PROXY，黑名单模式 DIRECT
   - name: "Final"
     type: select
@@ -188,7 +203,8 @@ Proxy Group:
       - "Trojan节点的主机测试0"
       - "Trojan节点的主机测试1"
       - "韩国春川AMD-01"
-      - "韩国春川AMD-01"
+      - "韩国春川AMD-03"
+      - "韩国春川AMD-04"
   # 大陆流媒体面向港澳台限定服务
   - name: "HKMTMedia"
     type: select
@@ -197,7 +213,8 @@ Proxy Group:
       - "Trojan节点的主机测试0"
       - "Trojan节点的主机测试1"
       - "韩国春川AMD-01"
-      - "韩国春川AMD-01"
+      - "韩国春川AMD-03"
+      - "韩国春川AMD-04"
   # 运营商及声名狼藉网站劫持
   - name: "Hijacking"
     type: select
