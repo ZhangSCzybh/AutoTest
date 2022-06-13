@@ -25,9 +25,12 @@ public class Common {
     }
 
 
+
     //yolocast-b端平台
-    public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");//不同环境切换****测试环境：profiles.active1、预发环境：profiles.active2、生产环境：profiles.active2
-    public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");//不同环境切换不同域名就好 测试环境：yolocast.test.url、测试环境：yolocast.pre.url、生产环境：yolocast.prod.url
+
+    //不同环境切换**** 修改15行的配置文件
+    public static String profiesEnv = STATIC_PROPERTIES.getProperty("profiles.active");
+    public static String yolocastUrl = STATIC_PROPERTIES.getProperty("yolocast.url");
 
     public static String loginYolocastEmail = STATIC_PROPERTIES.getProperty("login.Yolocast.email");
     public static String loginYolocastPassword = STATIC_PROPERTIES.getProperty("login.Yolocast.password");
@@ -41,6 +44,12 @@ public class Common {
     public static String activityCreateuri = STATIC_PROPERTIES.getProperty("create.activity.uri");
 
 
+
+    //test环境数据库
+    public static String driver = STATIC_PROPERTIES.getProperty("driver");
+    public static String url = STATIC_PROPERTIES.getProperty("url");
+    public static String username = STATIC_PROPERTIES.getProperty("username");
+    public static String password = STATIC_PROPERTIES.getProperty("password");
 
 
     //dingding
@@ -59,4 +68,6 @@ public class Common {
 
     //yolocast-dashboard
     //TODO dashboard apitest
+
+
 }

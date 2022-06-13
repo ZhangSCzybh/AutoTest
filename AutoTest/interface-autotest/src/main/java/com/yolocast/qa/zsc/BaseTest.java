@@ -1,16 +1,17 @@
 package com.yolocast.qa.zsc;
 
 import com.google.common.collect.Lists;
+import com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest;
 import com.yolocast.qa.zsc.Constant.Common;
 import com.yolocast.qa.zsc.Constant.Config;
 import com.yolocast.qa.zsc.utils.DingTalkRobotUtil;
-import com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest;
+import org.junit.Rule;
+import org.junit.rules.ErrorCollector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
 import java.io.IOException;
-
 import java.util.List;
 
 /**
@@ -21,7 +22,8 @@ public class BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
     public static List<String> attchments = Lists.newArrayList();
 
-
+    @Rule
+    public ErrorCollector collector = new ErrorCollector();
 
 
     public static void setUp() {

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="SendMessageTools:jar" />
@@ -7,44 +10,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2b7d759-9318-47b5-9c6c-3c784423981a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/04d9aeb0-0a4c-4210-bc17-afa99e644cb9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6907cd83-9fa6-4bbe-bbd9-e4d2e7e8a7f9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/6fce7cde-1e6b-4ee4-9d2e-ccba0d081d9a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/8ed8c61c-fabb-4134-b639-2127b1df905e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/950f453d-e3fe-46a6-a4fb-9572ed09707f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/9ec518d6-2911-4f35-b2d6-bae3cba06a55-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b942a773-0845-4f13-872f-abbef6d3bc79-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d64eade0-4065-48ee-a1db-e078f63255b1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/dc4b6e2a-8bda-49b4-865b-11952c591c04-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/f1f7c606-d822-47f5-b3f6-653e5eb801ca-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/GetCaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/pre.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/yolocast/createActivity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/011d8db9-4c53-4bd0-a9e5-6190f64c4314-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/0d1f5bec-756d-4564-a2cf-01dd8d9566a3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/1431a8bd-967e-41f1-b436-eb337a6fc328-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/28b2eff3-c3ef-43c4-ad79-c9db5db18a4a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/2bc62753-0b25-445a-908b-5bd7e511251b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3e4db313-8102-42e7-b313-28e94de5d081-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3e8b6823-bd16-46fa-8f64-62a2c650cd8f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/3eedc70a-1615-4ee7-b785-e6d184e6f924-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/475aa757-0ad7-4a95-bc09-9c440f266e33-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/7329b2b9-420a-44cf-b34f-36e33bf40b24-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/99272899-decc-4f39-b5f0-b85b85b8905b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/b233a0ac-b20e-4a53-a364-7b445c4e00cf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/d131d4f8-1b30-4965-8201-266bd461e2af-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/e8951053-95f2-44e4-863a-9913bd1e827c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/ead0613d-503c-4d28-a466-c501c06839db-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/allure-results/fcfc001b-d4e2-49d4-b438-60e64ccbe30e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/1111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/JdbcUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendMessageTools/SendMessageTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/SendMessageTools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendMessageTools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter/prod/env.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter/test/env.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/SendMessageTools/target/classes/Dingtalk/SendResultToDingtalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/04d9aeb0-0a4c-4210-bc17-afa99e644cb9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/2b74feab-3cf5-4c81-8104-a42d4a67c72d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/31f4f384-ac35-45e5-867d-4afd92d3beef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/3bb0edf6-5af3-496a-8fca-afeebb797419-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/4d1e9bc9-8163-4021-8731-4e7ccc62744c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/5a519d0a-6b26-4aa9-bba4-504641bbac89-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/6907cd83-9fa6-4bbe-bbd9-e4d2e7e8a7f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/6fce7cde-1e6b-4ee4-9d2e-ccba0d081d9a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/82735a9c-e30e-4eab-a5aa-826e9fe4ad07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/8ed8c61c-fabb-4134-b639-2127b1df905e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/950f453d-e3fe-46a6-a4fb-9572ed09707f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/9db309e6-2656-4ee4-b30b-e5747172ae2c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/9ec518d6-2911-4f35-b2d6-bae3cba06a55-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/b57dcd7a-8c7e-42ee-87dc-974a45791d90-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/b7d5f2a5-a0f7-4e44-8970-b7ec6da07322-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/b942a773-0845-4f13-872f-abbef6d3bc79-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/c0227871-ec7c-4763-a1f8-4dcdfc43f0ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/ca719abd-221a-4f53-a121-fb5433d256f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/d64eade0-4065-48ee-a1db-e078f63255b1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/dc4b6e2a-8bda-49b4-865b-11952c591c04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/eedce352-80e2-4803-9f51-6bb541e80c60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/f1f7c606-d822-47f5-b3f6-653e5eb801ca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/allure-results/testrun.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/interface-autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/interface-autotest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/java/com/yolocast/qa/zsc/Constant/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/src/main/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/2135380f60fa6fc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/ccd9f12b6880a9ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/d35102864aad3641.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/dca25e2892e05fd4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/e33f407e47dd9f62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/test-cases/f34c869e07e50735.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/executors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/2b74feab-3cf5-4c81-8104-a42d4a67c72d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/31f4f384-ac35-45e5-867d-4afd92d3beef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/3bb0edf6-5af3-496a-8fca-afeebb797419-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/4d1e9bc9-8163-4021-8731-4e7ccc62744c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/5a519d0a-6b26-4aa9-bba4-504641bbac89-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/82735a9c-e30e-4eab-a5aa-826e9fe4ad07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/9db309e6-2656-4ee4-b30b-e5747172ae2c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/b57dcd7a-8c7e-42ee-87dc-974a45791d90-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/b7d5f2a5-a0f7-4e44-8970-b7ec6da07322-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/c0227871-ec7c-4763-a1f8-4dcdfc43f0ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/ca719abd-221a-4f53-a121-fb5433d256f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/eedce352-80e2-4803-9f51-6bb541e80c60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/executor.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-results/executor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/allure-results/testrun.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/allure-results/testrun.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/ActivityListTest/ActivityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SourceTest/SourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/ApiTest/SettingTest/loginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/utils/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/CommonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/JDBCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/com/yolocast/qa/zsc/Constant/JDBCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/classes/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/interface-autotest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface-autotest/target/surefire-reports/TestSuite.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,9 +151,9 @@
         <option value="package-info" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="XHTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,242 +174,6 @@
     </option>
   </component>
   <component name="ProjectId" id="222zKvqwJf2RHT1UFcx99YwXczj" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Security</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>Assignment issuesJava</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJava</id>
-          </State>
-          <State>
-            <id>Class metricsJava</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Cloning issuesJava</id>
-          </State>
-          <State>
-            <id>Code maturity issuesJava</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>Compiler issuesJava</id>
-          </State>
-          <State>
-            <id>Concurrency annotation issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Data flow issuesJava</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>Dependency issuesJava</id>
-          </State>
-          <State>
-            <id>Encapsulation issuesJava</id>
-          </State>
-          <State>
-            <id>Error handlingJava</id>
-          </State>
-          <State>
-            <id>Finalization issuesJava</id>
-          </State>
-          <State>
-            <id>GPath inspectionsGroovy</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJava</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>ImportsJava</id>
-          </State>
-          <State>
-            <id>Inheritance issuesJava</id>
-          </State>
-          <State>
-            <id>Initialization issuesJava</id>
-          </State>
-          <State>
-            <id>Internationalization issuesJava</id>
-          </State>
-          <State>
-            <id>J2ME issuesJava</id>
-          </State>
-          <State>
-            <id>JUnit issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 7Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 9Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java interop issuesKotlin</id>
-          </State>
-          <State>
-            <id>Java language level issuesJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaBeans issuesJava</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
-            <id>Javadoc issuesJava</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Language Injection</id>
-          </State>
-          <State>
-            <id>Logging issuesJava</id>
-          </State>
-          <State>
-            <id>Memory issuesJava</id>
-          </State>
-          <State>
-            <id>Method metricsJava</id>
-          </State>
-          <State>
-            <id>Modularization issuesJava</id>
-          </State>
-          <State>
-            <id>Naming ConventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventionsJava</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>Packaging issuesJava</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issuesJava</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>Properties FilesJava</id>
-          </State>
-          <State>
-            <id>Reflective access issuesJava</id>
-          </State>
-          <State>
-            <id>Resource management issuesJava</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-          <State>
-            <id>Style issuesKotlin</id>
-          </State>
-          <State>
-            <id>StyleGroovy</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>Verbose or redundant code constructsJava</id>
-          </State>
-          <State>
-            <id>Visibility issuesJava</id>
-          </State>
-          <State>
-            <id>toString() issuesJava</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -321,7 +184,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -334,11 +197,11 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/interface-autotest/src/main/resources" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -367,13 +230,41 @@
       <command value="io.qameta.allure:allure-maven:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SourceTest">
+  <component name="RunManager" selected="TestNG.JDBCTest.jdbc">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.Constant.JDBCTest" />
+      <module name="interface-autotest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yolocast.qa.zsc.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendResultToDingtalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dingtalk.SendResultToDingtalk" />
+      <module name="SendMessageTools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dingtalk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -388,16 +279,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.*" />
+          <option name="PATTERN" value="com.yolocast.qa.zsc.Constant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" />
+      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.Constant" />
+      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.Constant.JDBCTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -406,36 +297,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivityTest.getScheduleEventsList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCTest.jdbc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="interface-autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.*" />
+          <option name="PATTERN" value="com.yolocast.qa.zsc.Constant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.ActivityListTest.ActivityTest" />
-      <option name="METHOD_NAME" value="getScheduleEventsList" />
+      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.Constant" />
+      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.Constant.JDBCTest" />
+      <option name="METHOD_NAME" value="jdbc" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SourceTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.ApiTest.SourceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.ApiTest.SourceTest" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.ApiTest.SourceTest.SourceTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -462,17 +335,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/interface-autotest/src/main/resources/suite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -492,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ActivityTest" />
-      <item itemvalue="TestNG.ActivityTest.getScheduleEventsList" />
-      <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/src/main/resources/suite.xml" />
+      <item itemvalue="Application.SendResultToDingtalk" />
+      <item itemvalue="Application.JDBCTest" />
       <item itemvalue="TestNG.SourceTest.getSourceList" />
-      <item itemvalue="TestNG.SourceTest" />
+      <item itemvalue="TestNG.JDBCTest" />
+      <item itemvalue="TestNG.JDBCTest.jdbc" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SourceTest" />
+        <item itemvalue="TestNG.JDBCTest.jdbc" />
+        <item itemvalue="TestNG.JDBCTest" />
+        <item itemvalue="Application.JDBCTest" />
         <item itemvalue="TestNG.SourceTest.getSourceList" />
-        <item itemvalue="TestNG./Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/src/main/resources/suite.xml" />
-        <item itemvalue="TestNG.ActivityTest" />
-        <item itemvalue="TestNG.ActivityTest.getScheduleEventsList" />
+        <item itemvalue="Application.SendResultToDingtalk" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +396,22 @@
       <workItem from="1651395712705" duration="1627000" />
       <workItem from="1651401075687" duration="10271000" />
       <workItem from="1651415252366" duration="275000" />
-      <workItem from="1651561635021" duration="16778000" />
+      <workItem from="1651561635021" duration="19463000" />
+      <workItem from="1651717509525" duration="894000" />
+      <workItem from="1651723390283" duration="69000" />
+      <workItem from="1651723493462" duration="1023000" />
+      <workItem from="1651730888690" duration="217000" />
+      <workItem from="1651731189327" duration="3142000" />
+      <workItem from="1651742833626" duration="1319000" />
+      <workItem from="1651744202725" duration="6186000" />
+      <workItem from="1651903466684" duration="4194000" />
+      <workItem from="1652068958442" duration="7476000" />
+      <workItem from="1652423285522" duration="8723000" />
+      <workItem from="1652667711572" duration="4042000" />
+      <workItem from="1653552797764" duration="680000" />
+      <workItem from="1653558332351" duration="6880000" />
+      <workItem from="1653892600581" duration="1503000" />
+      <workItem from="1655098484325" duration="112000" />
     </task>
     <servers />
   </component>
@@ -552,21 +429,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2211" y="-164" key="#HTTP_Proxy" timestamp="1651723316666">
+      <screen x="1440" y="-515" width="2560" height="1415" />
+    </state>
+    <state x="2211" y="-164" key="#HTTP_Proxy/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651723316666" />
+    <state x="2320" y="-145" key="#Inspections" timestamp="1653641210060">
+      <screen x="1440" y="-515" width="2560" height="1415" />
+    </state>
+    <state x="2320" y="-145" key="#Inspections/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1653641210060" />
     <state x="398" y="319" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1650880860575">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="398" y="319" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650880860575" />
-    <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651406178389">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state x="2613" y="-261" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651821183839">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
+    <state x="2613" y="-261" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651821183839" />
     <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.822@0.25.1440.822" timestamp="1651406178389" />
     <state x="100" y="125" width="1240" height="622" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1651575996335">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="1620" y="-171" width="2205" height="1071" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651216116334" />
     <state x="100" y="125" width="1240" height="622" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1440.822@0.25.1440.822" timestamp="1651575996335" />
+    <state x="2370" y="-96" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1652065000407">
+      <screen x="1440" y="-515" width="2560" height="1415" />
+    </state>
+    <state x="2370" y="-96" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1652065000407" />
     <state x="457" y="224" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1651414254573">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
@@ -583,26 +474,26 @@
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="467" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.822@0.25.1440.822" timestamp="1651579415747" />
-    <state width="1398" height="116" key="GridCell.Tab.0.bottom" timestamp="1651625172940">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="2518" height="510" key="GridCell.Tab.0.bottom" timestamp="1651823867590">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651218255013" />
-    <state width="1398" height="116" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1651625172940" />
-    <state width="1398" height="116" key="GridCell.Tab.0.center" timestamp="1651625172937">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="2518" height="510" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651823867590" />
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1651626464340" />
+    <state width="2518" height="510" key="GridCell.Tab.0.center" timestamp="1651823867589">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.center/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651218255012" />
-    <state width="1398" height="116" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1651625172937" />
-    <state width="1398" height="116" key="GridCell.Tab.0.left" timestamp="1651625172914">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="2518" height="510" key="GridCell.Tab.0.center/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651823867589" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1651626464339" />
+    <state width="2518" height="510" key="GridCell.Tab.0.left" timestamp="1651823867588">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.left/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651218255011" />
-    <state width="1398" height="116" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1651625172914" />
-    <state width="1398" height="116" key="GridCell.Tab.0.right" timestamp="1651625172938">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="2518" height="510" key="GridCell.Tab.0.left/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651823867588" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1651626464336" />
+    <state width="2518" height="510" key="GridCell.Tab.0.right" timestamp="1651823867590">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.right/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651218255013" />
-    <state width="1398" height="116" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1651625172938" />
+    <state width="2518" height="510" key="GridCell.Tab.0.right/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651823867590" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1651626464339" />
     <state width="2518" height="324" key="GridCell.Tab.1.bottom" timestamp="1650783654949">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
@@ -623,15 +514,15 @@
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
     <state x="2258" y="-149" key="Maven.ArtifactSearchDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650789980509" />
-    <state x="209" y="119" width="932" height="728" key="SettingsEditor" timestamp="1651561677413">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state x="2205" y="-224" width="932" height="728" key="SettingsEditor" timestamp="1652078595037">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state x="2099" y="-237" width="1024" height="822" key="SettingsEditor/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651129556368" />
+    <state x="2205" y="-224" width="1024" height="822" key="SettingsEditor/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1652078595037" />
     <state x="209" y="119" width="932" height="728" key="SettingsEditor/0.25.1440.822@0.25.1440.822" timestamp="1651561677413" />
-    <state x="539" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1651561633620">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog" timestamp="1653892626519">
+      <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1651052637510" />
+    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1653892626519" />
     <state x="539" y="321" key="com.intellij.ide.util.TipDialog/0.25.1440.822@0.25.1440.822" timestamp="1651561633620" />
     <state x="123" y="130" key="new project wizard" timestamp="1651408191034">
       <screen x="0" y="25" width="1440" height="822" />

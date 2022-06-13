@@ -3,16 +3,84 @@
   "children" : [ {
     "name" : "zhangshichaodeMacBook-Pro.local",
     "children" : [ {
-      "name" : "20288@zhangshichaodeMacBook-Pro.local.main(1)",
+      "name" : "5966@zhangshichaodeMacBook-Pro.local.main(1)",
       "children" : [ {
-        "name" : "loginYolocast",
-        "uid" : "e33f407e47dd9f62",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
-        "status" : "passed",
+        "name" : "获取前两个SourceId",
+        "uid" : "f9318f14416d73d3",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "failed",
         "time" : {
-          "start" : 1651411158209,
-          "stop" : 1651411159719,
-          "duration" : 1510
+          "start" : 1653638358819,
+          "stop" : 1653638360551,
+          "duration" : 1732
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateSourceStreamKey",
+        "uid" : "a1acd4c9fbcd2e26",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653638375628,
+          "stop" : 1653638375628,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取前几个预约活动的activityId",
+        "uid" : "af4906db1fe2c714",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653638393312,
+          "stop" : 1653638394527,
+          "duration" : 1215
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateSource",
+        "uid" : "1ed17e9c10da472",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653638370607,
+          "stop" : 1653638370608,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建obs推流的活动",
+        "uid" : "febdf4a536325484",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653638381859,
+          "stop" : 1653638383226,
+          "duration" : 1367
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +91,13 @@
         "parameters" : [ ]
       }, {
         "name" : "deleteFirstSource",
-        "uid" : "dca25e2892e05fd4",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
-        "status" : "passed",
+        "uid" : "ed75167ce9cf432b",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "skipped",
         "time" : {
-          "start" : 1651411166409,
-          "stop" : 1651411168054,
-          "duration" : 1645
+          "start" : 1653638365588,
+          "stop" : 1653638365589,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,14 +107,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "getSourceList",
-        "uid" : "2135380f60fa6fc4",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
+        "name" : "emptyTest",
+        "uid" : "8fc26a4e86a480b",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
         "status" : "passed",
         "time" : {
-          "start" : 1651411160017,
-          "stop" : 1651411166382,
-          "duration" : 6365
+          "start" : 1653638388256,
+          "stop" : 1653638388284,
+          "duration" : 28
         },
         "flaky" : false,
         "newFailed" : false,
@@ -56,58 +124,24 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "getScheduleEventsList",
-        "uid" : "d35102864aad3641",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
-        "status" : "passed",
+        "name" : "loginYolocast",
+        "uid" : "3254f5b8e18ee989",
+        "parentUid" : "35f53b98bcfc4db171d2606f0f30fa6a",
+        "status" : "failed",
         "time" : {
-          "start" : 1651411173113,
-          "stop" : 1651411174143,
-          "duration" : 1030
+          "start" : 1653638350404,
+          "stop" : 1653638352491,
+          "duration" : 2087
         },
         "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "updateSource",
-        "uid" : "f34c869e07e50735",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651411168071,
-          "stop" : 1651411169353,
-          "duration" : 1282
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "updateSourceStreamKey",
-        "uid" : "ccd9f12b6880a9ef",
-        "parentUid" : "ad4897442adc99d6896764505d216369",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651411169372,
-          "stop" : 1651411170844,
-          "duration" : 1472
-        },
-        "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ad4897442adc99d6896764505d216369"
+      "uid" : "35f53b98bcfc4db171d2606f0f30fa6a"
     } ],
     "uid" : "568a353a90e3e02c7542b696f9877331"
   } ],

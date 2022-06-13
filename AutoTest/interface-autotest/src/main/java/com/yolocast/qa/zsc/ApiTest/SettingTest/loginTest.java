@@ -25,7 +25,6 @@ public class loginTest extends BaseTest {
     public void beforeTest(){
         //bundle = ResourceBundle.getBundle("application", Locale.CHINA);
         //yolocastUrl = bundle.getString("yolocast.prod.url");
-        //System.out.println("******************** Env:" + Common.profies + " 域名：" + Common.yolocastUrl + " ********************");
         caveat("******************** \n Env:" + Common.profiesEnv + " \n 域名：" + Common.yolocastUrl + " \n********************");
     }
 

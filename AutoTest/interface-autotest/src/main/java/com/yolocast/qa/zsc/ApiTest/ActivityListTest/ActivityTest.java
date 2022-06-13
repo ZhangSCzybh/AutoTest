@@ -4,8 +4,8 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
-
 import com.yolocast.qa.zsc.ApiTest.SettingTest.loginTest;
+import com.yolocast.qa.zsc.BaseTest;
 import com.yolocast.qa.zsc.Constant.Common;
 import com.yolocast.qa.zsc.Constant.CommonUtil;
 import com.yolocast.qa.zsc.Constant.Config;
@@ -19,17 +19,17 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.NoSuchElementException;
+import java.util.*;
 
-public class ActivityTest {
+public class ActivityTest extends BaseTest {
 
     private static final Logger logger = LoggerFactory.getLogger(loginTest.class);
-    private String FILENAME = "yolocast/createActivity";
+    private String fileName = "yolocast/createActivity";
     private static String scene = "活动列表";
     private static HashMap<String, String> headers =new HashMap<>();
 
+    public static ArrayList<String> KeyExistList = new ArrayList<>(Arrays.asList("videoId", "url", "covers", "title", "dataTime", "duration")); //关键字段
+    public static ArrayList<String> KeyList = new ArrayList<>(Arrays.asList("videoId", "url", "default", "title", "dataTime", "duration")); //关键字段
 
     private static String activityId1;
     private static String activityId2;
@@ -61,7 +61,7 @@ public class ActivityTest {
         headers.put("cast-auth", Common.Cookies);
 
         String body = map.toString();
-        String ScheduleEventsListUrl = Common.yolocastUrl+Common.scheduleEventsListuri;
+        String scheduleEventsListUrl = Common.yolocastUrl+Common.scheduleEventsListuri;
         String result;
 
         cn.hutool.json.JSONObject jsonresult = new JSONObject();
@@ -69,14 +69,11 @@ public class ActivityTest {
 
         try{
             //发送get请求并接收响应数据
-            result= HttpUtil.createGet(ScheduleEventsListUrl).addHeaders(headers).form(map).execute().body();
-            //发送post请求并接收响应数据
-            //String result= HttpUtil.createPost(url).addHeaders(headers).form(map).execute().body();
-
+            result= HttpUtil.createGet(scheduleEventsListUrl).addHeaders(headers).form(map).execute().body();
             jsonresult = new cn.hutool.json.JSONObject(result);
-            CommonUtil.assertAvailable(jsonresult, body, ScheduleEventsListUrl, scene);
+            CommonUtil.assertAvailable(jsonresult, body, scheduleEventsListUrl, scene);
         }catch (NoSuchElementException e){
-            String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), ScheduleEventsListUrl, body, "NullPointerException");
+            String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), scheduleEventsListUrl, body, "NullPointerException");
             Assert.fail(wrong);
         }
         /********************************************************************接口可用性检查结束********************************************************************/
@@ -114,7 +111,7 @@ public class ActivityTest {
     public void createEvent(){
 
         //存放参数
-        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(FILENAME);
+        com.alibaba.fastjson.JSONObject param = GetCaseUtil.getAllCases(fileName);
         param.put("startTime",Config.getTimestampAfterTenMinutes);
         param.put("endTime",Config.getTimestampAfterFortyMinutes);
         param.put("title","Create by"+DateUtil.getSysdateStr());
@@ -136,7 +133,7 @@ public class ActivityTest {
 
         }catch (NoSuchElementException e){
             String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), createUrl, body, "NullPointerException");
-            Assert.fail(wrong+"11111");
+            Assert.fail(wrong);
         }
         /********************************************************************接口可用性检查结束********************************************************************/
 
@@ -147,6 +144,55 @@ public class ActivityTest {
             logger.error("data不为true");
 
         }
+
+
+
+    }
+
+
+
+    @Test
+    public void checkData(){
+
+        HashMap<String, String> headers = new HashMap<>();//存放请求头，可以存放多个请求头
+        headers.put("cast-auth", Common.Cookies);
+
+        String checkEventUrl = Common.yolocastUrl+Common.activityCreateuri + "908978164045189120";
+        String body =null;
+        String result;
+        cn.hutool.json.JSONObject jsonresult = new JSONObject();
+
+
+        try{
+            //发送get请求并接收响应数据
+            result= HttpUtil.createGet(checkEventUrl).addHeaders(headers).execute().body();
+            jsonresult = new cn.hutool.json.JSONObject(result);
+            CommonUtil.assertAvailable(jsonresult, body, checkEventUrl, scene);
+        }catch (NoSuchElementException e){
+            String wrong = String.format(Config.availableInfo, Config.Pro, scene, ErrorEnum.ISFAILED.getMsg(), checkEventUrl, body, "NullPointerException");
+            Assert.fail(wrong);
+        }
+
+        JSONObject data = jsonresult.getJSONObject("data");
+        /*
+         *
+         * @author zhangsc
+         * @date 2022/6/13 下午1:36
+
+        data.forEach(json -> {
+            CommonUtil.filedExistDet(collector, KeyExistList, (json), checkEventUrl, body);
+            //字段非空校验
+            CommonUtil.keyDataDet(collector, KeyList, (json), checkEventUrl, body);
+        });
+         */
+
+
+
+
+    }
+
+    @Test
+    public void emptyTest(){
 
 
     }
