@@ -18,7 +18,8 @@ public class ExtractFieldValues {
     public static String tsFileData = "/Users/zhangshichao/Downloads/stream_log/tsdata.txt";
 
     public static void main(String[] args) throws IOException {
-        //根据流id 查询数据 908224694543454209
+        //根据流id 查询数据
+        // 908224694543454209
         streamFileter();
 
         //根据m3u8/ts格式统计数据
