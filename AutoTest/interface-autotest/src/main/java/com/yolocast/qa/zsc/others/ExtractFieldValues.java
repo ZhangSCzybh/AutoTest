@@ -37,7 +37,7 @@ public class ExtractFieldValues {
                 int sum = 0;
                 while(line != null){
                     line = bufferedReader.readLine();
-                    //split返回的是一个数组，将line 切割传给每个数组下标
+                    //split返i回的是一个数组，将line 切割传给每个数组下标
                     String pp [] = new String[5];
                     //这里注意split会空指针异常，这里得加个判断
                     if(line ==null ){
