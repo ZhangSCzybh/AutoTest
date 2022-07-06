@@ -19,9 +19,6 @@ public class CommonUtil {
 
 
     /**
-     *
-     * @author zhangsc
-     * @date 2022/4/26 下午3:55
      * @param result    接口返回JSONObject 仅接受JSONObject
      * @param params    入参
      * @param url       接口
