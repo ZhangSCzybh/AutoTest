@@ -268,6 +268,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.others.TestDemo" />
+      <module name="interface-autotest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yolocast.qa.zsc.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -291,24 +305,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="interface-autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yolocast.qa.zsc.Constant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yolocast.qa.zsc.Constant" />
-      <option name="MAIN_CLASS_NAME" value="com.yolocast.qa.zsc.Constant.JDBCTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,16 +350,16 @@
       <item itemvalue="Application.ExtractFieldValues" />
       <item itemvalue="Application.delete" />
       <item itemvalue="Application.StreamFilter" />
-      <item itemvalue="TestNG.JDBCTest" />
+      <item itemvalue="Application.TestDemo" />
       <item itemvalue="TestNG.JDBCTest.jdbc" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExtractFieldValues" />
+        <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.StreamFilter" />
         <item itemvalue="Application.delete" />
         <item itemvalue="TestNG.JDBCTest.jdbc" />
-        <item itemvalue="TestNG.JDBCTest" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +412,8 @@
       <workItem from="1656486599393" duration="7580000" />
       <workItem from="1657075743442" duration="23261000" />
       <workItem from="1657104999094" duration="5316000" />
-      <workItem from="1657110345894" duration="290000" />
+      <workItem from="1657110345894" duration="26899000" />
+      <workItem from="1657259166153" duration="7432000" />
     </task>
     <servers />
   </component>
@@ -479,25 +476,25 @@
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="467" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.822@0.25.1440.822" timestamp="1651579415747" />
-    <state width="2518" height="96" key="GridCell.Tab.0.bottom" timestamp="1657110337582">
+    <state width="2518" height="354" key="GridCell.Tab.0.bottom" timestamp="1657272640230">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="96" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657110337582" />
+    <state width="2518" height="354" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657272640230" />
     <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1651626464340" />
-    <state width="2518" height="96" key="GridCell.Tab.0.center" timestamp="1657110337582">
+    <state width="2518" height="354" key="GridCell.Tab.0.center" timestamp="1657272640228">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="96" key="GridCell.Tab.0.center/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657110337582" />
+    <state width="2518" height="354" key="GridCell.Tab.0.center/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657272640228" />
     <state width="1398" height="141" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1651626464339" />
-    <state width="2518" height="96" key="GridCell.Tab.0.left" timestamp="1657110337581">
+    <state width="2518" height="354" key="GridCell.Tab.0.left" timestamp="1657272640220">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="96" key="GridCell.Tab.0.left/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657110337581" />
+    <state width="2518" height="354" key="GridCell.Tab.0.left/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657272640220" />
     <state width="1398" height="141" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1651626464336" />
-    <state width="2518" height="96" key="GridCell.Tab.0.right" timestamp="1657110337582">
+    <state width="2518" height="354" key="GridCell.Tab.0.right" timestamp="1657272640229">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state width="2518" height="96" key="GridCell.Tab.0.right/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657110337582" />
+    <state width="2518" height="354" key="GridCell.Tab.0.right/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657272640229" />
     <state width="1398" height="141" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1651626464339" />
     <state width="2518" height="324" key="GridCell.Tab.1.bottom" timestamp="1650783654949">
       <screen x="1440" y="-515" width="2560" height="1415" />
@@ -528,10 +525,10 @@
     </state>
     <state x="2205" y="-224" width="1024" height="822" key="SettingsEditor/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1652078595037" />
     <state x="209" y="119" width="932" height="728" key="SettingsEditor/0.25.1440.822@0.25.1440.822" timestamp="1651561677413" />
-    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog" timestamp="1657105001349">
+    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog" timestamp="1657259165932">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657105001349" />
+    <state x="2399" y="-5" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657259165932" />
     <state x="539" y="321" key="com.intellij.ide.util.TipDialog/0.25.1440.822@0.25.1440.822" timestamp="1655644949488" />
     <state x="123" y="130" key="new project wizard" timestamp="1651408191034">
       <screen x="0" y="25" width="1440" height="822" />
@@ -542,10 +539,10 @@
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="385" y="196" width="670" height="675" key="run.anything.popup/0.25.1440.822@0.25.1440.822" timestamp="1651406678485" />
-    <state x="2385" y="-191" width="670" height="58" key="search.everywhere.popup" timestamp="1655443599914">
+    <state x="2385" y="-191" width="670" height="158" key="search.everywhere.popup" timestamp="1657257097025">
       <screen x="1440" y="-515" width="2560" height="1415" />
     </state>
-    <state x="2385" y="-191" width="670" height="58" key="search.everywhere.popup/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1655443599914" />
+    <state x="2385" y="-191" width="670" height="158" key="search.everywhere.popup/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1657257097025" />
     <state x="532" y="213" width="670" height="393" key="search.everywhere.popup/0.25.1440.822@0.25.1440.822" timestamp="1651568875474" />
   </component>
 </project>

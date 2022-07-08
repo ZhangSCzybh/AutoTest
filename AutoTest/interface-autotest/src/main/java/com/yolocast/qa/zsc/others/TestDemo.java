@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 /**
  * @author zhangsc
- * @date 2022-07-06 上午11:14
+ * @date 2022-07-07 下午7:21
  */
-public class ExtractFieldValues {
+public class TestDemo{
 
     public static File file = new File("/Users/zhangshichao/Downloads/stream_log");
     public static String keyFile = "/Users/zhangshichao/Downloads/stream_data/keyFilterResult.txt";
@@ -31,59 +31,61 @@ public class ExtractFieldValues {
         switch (flowType){
             case 1:
                 // 直播流量：总流量、ts文件流量、m3u8(flv)流量
-                System.out.print("选择需要计算的流量的格式：ts格式输入:txspiseq ｜｜ m3u8、flv格式输入:txSecret ｜｜ 所有格式输入:all -->请输入：");
+                System.out.print("选择需要计算的类型格式：ts格式输入:txspiseq ｜｜ m3u8、flv格式输入:txSecret ｜｜ 所有格式输入:all！ -->请输入：");
                 String streamType = (new Scanner(System.in)).next();
                 switch (streamType){
 
-                    //筛选ts文件格式的流量，计算ts流量
+                        //筛选ts文件格式的流量，计算ts流量
                     case "txspiseq":
                         tsFlow(streamType);
                         break;
 
-                    //筛选m3u8格式的流量，计算flv流量
+                        //筛选m3u8格式的流量，计算flv流量
                     case "txSecret":
                         m3u8Flow(streamType);
                         break;
 
-                    //筛选所有格式流量，计算总流量
+                        //筛选所有格式流量，计算总流量
                     case "all":
                         totalLiveFlow(streamType);
                         break;
+
                     default:
-                        throw new IllegalStateException("Unexpected value: " + streamType);
+                        break;
                 }
                 break;
 
             case 2:
                 // 点播流量：总流量、去除图片流量
-                System.out.print("选择需要计算的流量的格式：1、总流量统计（包含图片）withjpg｜｜ 2、总流量（去除图片）withoutjpg -->请输入对应字母：");
+                System.out.print("选择需要计算的类型格式：1、总流量统计（包含图片）withjpg｜｜ 2、总流量（去除图片）withoutjpg -->请输入对应字母：");
                 String demandFlowType = (new Scanner(System.in)).next();
                 switch(demandFlowType){
-                    //筛选所有格式,计算总流量
+                        //筛选所有格式,计算总流量
                     case "withjpg":
                         totalDemandFlow(demandFlowType);
                         break;
 
-                    //去除jpg图片流量,
+                        //去除jpg图片流量,
                     case "withoutjpg":
                         totalDemandFlowWithoutJpg(demandFlowType);
                         break;
+
                     default:
-                        throw new IllegalStateException("Unexpected value: " + demandFlowType);
+                        break;
                 }
                 break;
         }
 
 
-    }
+        }
 
 
-    /**
-     *
-     * @author zhangsc
-     * @date 2022/7/8 下午3:52
-     * @param str
-     */
+        /** 
+         * 
+         * @author zhangsc
+         * @date 2022/7/8 下午3:59
+ * @param str
+         */
     public static void keyFilter(String str) throws IOException {
         BufferedWriter ou = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(keyFile), "utf-8"));
         File flist[] = file.listFiles();
@@ -111,11 +113,11 @@ public class ExtractFieldValues {
         ou.close();
     }
 
-    /**
-     *
+    /** 
+     * 
      * @author zhangsc
      * @date 2022/7/8 下午3:39
-     * @param streamType
+     * @param streamType  
      */
     public static void tsFlow(String streamType ) throws IOException {
         BufferedReader in1 = new BufferedReader(new InputStreamReader(new FileInputStream(keyFile), "utf-8"));
@@ -151,12 +153,12 @@ public class ExtractFieldValues {
         System.out.println("ts流量总和:"+tssum);
     }
 
-
-    /**
+    
+    /** 
      *
      * @author zhangsc
      * @date 2022/7/8 下午3:39
-     * @param streamType
+     * @param streamType  
      */
     public static void m3u8Flow(String streamType) throws IOException {
         BufferedReader in2 = new BufferedReader(new InputStreamReader(new FileInputStream(keyFile), "utf-8"));
@@ -191,8 +193,8 @@ public class ExtractFieldValues {
         System.out.println("m3u8&flv流量总和:"+m3u8Sum);
 
     }
-
-
+    
+    
     /**
      *
      * @author zhangsc
@@ -221,7 +223,7 @@ public class ExtractFieldValues {
         System.out.println("所有流量总和:"+Sum);
     }
 
-
+    
     /**
      *
      * @author zhangsc
@@ -249,13 +251,13 @@ public class ExtractFieldValues {
         bufferedReader3.close();
         System.out.println("所有流量总和:" + picSum);
     }
-
-
-    /**
-     *
+    
+    
+    /** 
+     * 
      * @author zhangsc
      * @date 2022/7/8 下午3:48
-     * @param demandFlowType
+     * @param demandFlowType  
      */
     public static void totalDemandFlowWithoutJpg(String demandFlowType ) throws IOException {
         BufferedReader in3 = new BufferedReader(new InputStreamReader(new FileInputStream(keyFile), "utf-8"));
