@@ -16,7 +16,11 @@ public class JdbcUtil {
         try{
             //获取连接对象Connection
             Class.forName(Common.driver);
-            conn = DriverManager.getConnection(Common.url,Common.username,Common.password);
+            //yolo_usercenter
+            //conn = DriverManager.getConnection(Common.usercenterUrl,Common.username,Common.password);
+            //yololiv-test
+            conn = DriverManager.getConnection(Common.yololivUrl,Common.username,Common.password);
+
         }catch (ClassNotFoundException e) {
             e.printStackTrace();
         }catch (SQLException e){

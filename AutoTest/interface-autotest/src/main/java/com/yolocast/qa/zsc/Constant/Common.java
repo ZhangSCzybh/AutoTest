@@ -47,9 +47,12 @@ public class Common {
 
     //test环境数据库
     public static String driver = STATIC_PROPERTIES.getProperty("driver");
-    public static String url = STATIC_PROPERTIES.getProperty("url");
     public static String username = STATIC_PROPERTIES.getProperty("username");
     public static String password = STATIC_PROPERTIES.getProperty("password");
+    public static String yololivUrl = STATIC_PROPERTIES.getProperty("url");
+    public static String activityUrl = STATIC_PROPERTIES.getProperty("activity.url");
+    public static String streamUrl = STATIC_PROPERTIES.getProperty("stream.url");
+    public static String usercenterUrl = STATIC_PROPERTIES.getProperty("usercenter.url");
 
 
     //dingding

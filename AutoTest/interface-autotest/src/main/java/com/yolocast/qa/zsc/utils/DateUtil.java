@@ -829,6 +829,25 @@ public class DateUtil {
         return times;
     }
 
+
+    /**
+     * 时间差计算（秒、分钟、小时、天数、月份、年）
+     * @author zhangsc
+     * @date 2022/7/13 下午12:20
+     * @param startDate
+     * @param endDate
+     * @return java.lang.String
+     */
+    public static String convert(Date startDate,Date endDate) {
+        long startTime = startDate.getTime();//获取毫秒数
+        long endTime = endDate.getTime();	 //获取毫秒数
+        long timeDifference = endTime-startTime;
+        long second = timeDifference/1000;	//计算秒
+        return Long.toString(second);
+
+    }
+
+
     /**
      * 两个时间相差距离多少天多少小时多少分多少秒
      *
