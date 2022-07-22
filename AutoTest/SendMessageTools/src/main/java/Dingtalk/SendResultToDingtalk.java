@@ -35,9 +35,9 @@ public class SendResultToDingtalk {
     //public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
     //public static String deteleAllureResult = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/allure-results";
     //server
-    public static String pathname1 = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
-    public static String pathname2 = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
-    public static String deteleAllureResult = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/allure-results";
+    public static String pathname1 = "/var/lib/jenkins/workspace/Interface-Autotest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname2 = "/var/lib/jenkins/workspace/Interface-Autotest/AutoTest/interface-autotest/target/allure-results/executor.json";
+    public static String deteleAllureResult = "/var/lib/jenkins/workspace/Interface-Autotest/AutoTest/interface-autotest/allure-results";
 
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
