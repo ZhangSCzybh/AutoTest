@@ -1,13 +1,11 @@
 package Dingtalk;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpRequest;
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.codec.binary.Base64;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -15,9 +13,11 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.*;
 import java.net.URLEncoder;
-
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -29,10 +29,15 @@ public class SendResultToDingtalk {
 
     private static final int timeout =10000;
     // /Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json
-    public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
-    public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
-    //public static String pathname3 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/data/categories.json";
-    public static String deteleAllureResult = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/allure-results";
+    //public static String pathname3 = "*/target/allure-report/data/categories.json";
+    //local
+    //public static String pathname1 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
+    //public static String pathname2 = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
+    //public static String deteleAllureResult = "/Users/zhangshichao/Documents/Workspace/AutoTest/AutoTest/interface-autotest/allure-results";
+    //server
+    public static String pathname1 = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/target/allure-report/widgets/summary.json";
+    public static String pathname2 = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/target/allure-results/executor.json";
+    public static String deteleAllureResult = "/var/lib/jenkins/workspace/AutoTest/AutoTest/interface-autotest/allure-results";
 
     public static String assertioncontent="Product defects";
     static String dingUrl= "https://oapi.dingtalk.com/robot/send?access_token=6ca1bc74766afffbe49369ae6d7a06de954f7fd01aace49b8c22769e33bb143d";
